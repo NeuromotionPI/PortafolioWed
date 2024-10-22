@@ -4,6 +4,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" 
+    integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/easy-pie-chart/2.1.6/jquery.easypiechart.min.js" 
+    integrity="sha512-DHNepbIus9t4e6YoMBSJLwl+nnm0tIwMBonsQQ+W9NKN6gVVVbomJs9Ii3mQ+HzGZiU5FyJLdnAz9a63ZgZvTQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" 
     crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="style.css">
@@ -107,7 +111,7 @@
         <div class="fila">
         <div class="col">
             <div class="card">
-                <div class="icono color4">
+                <div class="icono color1">
                     <div class="circulo">
                         <i class="fa-solid fa-bullhorn"></i>
                     </div> 
@@ -121,7 +125,7 @@
         </div>
         <div class="col">
                 <div class="card">
-                    <div class="icono color5">
+                    <div class="icono color2">
                         <div class="circulo">
                             <i class="fa-solid fa-circle-info"></i>
                         </div> 
@@ -135,7 +139,7 @@
             </div>
             <div class="col">
                 <div class="card">
-                    <div class="icono color6">
+                    <div class="icono color3">
                         <div class="circulo">
                             <i class="fa-solid fa-cart-shopping"></i>
                         </div> 
@@ -150,6 +154,157 @@
         </div>
     </section>
 
+    <!-- sección habilidades -->
+     <section class="habilidades" id="habilidades" >
+        <div class="contenedor-habi">
+            <h2>Habilidades</h2>
+                <div class="fila">
+                    <div class="col">
+                        <div class="score">
+                            <div class="box">
+                                <div class="chart chart1" data-percent="95">
+                                    95%
+                                </div>
+                                <h2>HTML & CSS</h2>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="score">
+                            <div class="box">
+                                <div class="chart chart2" data-percent="90">
+                                    90%
+                                </div>
+                                <h2>BOOSTRAP</h2>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="score">
+                            <div class="box">
+                                <div class="chart chart3" data-percent="85">
+                                    85%
+                                </div>
+                                <h2>JAVASCRIPT</h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="fila">
+                    <div class="col">
+                        <div class="score">
+                            <div class="box">
+                                <div class="chart chart4" data-percent="70">
+                                    70%
+                                </div>
+                                <h2>MYSQL</h2>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="score">
+                            <div class="box">
+                                <div class="chart chart5" data-percent="90">
+                                    90%
+                                </div>
+                                <h2>PHP</h2>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="score">
+                            <div class="box">
+                                <div class="chart chart6" data-percent="90">
+                                    90%
+                                </div>
+                                <h2>PHOTOSHOP</h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>       
+        </div>
+     </section>
+
+     <!-- sección Trabajos-->
+      <section class="trabajos" id="trabajos">
+        <h2>Mi Proyecto</h2>
+
+        <nav>
+            <a href="javascript:void(0)" class="borde" id="item">Todos</a>
+            <a href="javascript:void(0)" class="borde" id="disenio">Diseño</a>
+            <a href="javascript:void(0)" class="borde" id="programacion">Backend</a>
+            <a href="javascript:void(0)" class="borde" id="animaciones">Animaciones</a>
+        </nav>
+
+        <div class="galeria">
+            <div class="item disenio">
+                <img src="img/logo.png"alt="">
+                <div class="info">
+                    <h3>Trabajos Neuromotion</h3>
+                    <a href="#">Ver Trabajo</a>
+                </div>
+            </div>
+            <div class="item programacion">
+                <img src="img/java-spring-framework.jpg"alt="">
+                <div class="info">
+                    <h3>Desarrollo Backend</h3>
+                    <a href="#">Ver Trabajo</a>
+                </div>
+            </div>
+            <div class="item animaciones">
+                <img src="img/preguntas medico.jpg"alt="">
+                <div class="info">
+                    <h3>Idea de negocio</h3>
+                    <a href="#">Ver Trabajo</a>
+                </div>
+            </div>
+            <div class="item disenio">
+                <img src="img/hero-img.svg"alt="">
+                <div class="info">
+                    <h3>Metologias AI</h3>
+                    <a href="#">Ver Trabajo</a>
+                </div>
+            </div>
+            <div class="item animaciones">
+                <img src="img/Estudioo.png"alt="">
+                <div class="info">
+                    <h3>Analisis psicológico </h3>
+                    <a href="#">Ver Trabajo</a>
+                </div>
+            </div>
+            <div class="item programacion">
+                <img src="img/CONEXION CON LA BASE DE DATOS (1).png"alt="">
+                <div class="info">
+                    <h3>Informe IEEE</h3>
+                    <a href="#">Ver Trabajo</a>
+                </div>
+            </div>    
+            <div class="item disenio">
+                <img src="img/angular.webp"alt="">
+                <div class="info">
+                    <h3>Diseño WED</h3>
+                    <a href="#">Ver Trabajo</a>
+                </div>
+            </div>
+            <div class="item programacion">
+                <img src="img/medico1.jpg"alt="">
+                <div class="info">
+                    <h3>Información/h3>
+                    <a href="#">Ver Trabajo</a>
+                </div>
+            </div> 
+            <div class="item programacion">
+                <img src="img/depression.jpg"alt="">
+                <div class="info">
+                    <h3>Informacion del Proyecto</h3>
+                    <a href="#">Ver Trabajo</a>
+                </div>
+            </div>                            
+        </div>
+
+      </section>
+
+     <script src="app.js"></script>
 </body>
 </html>
 
