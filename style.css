@@ -124,6 +124,8 @@ body{
     padding: 0 20px;
     position: relative;
     top: -170px;
+    z-index: 10;
+
 }
 .servicios .fila{
     display: flex;
@@ -262,7 +264,7 @@ body{
 }
 /* Esta clase se agregará dinamicamente cuando haya seleccionado una opción */
 .border{
-    border: 3px solid #ff5b00;
+    border: 3px solid #ff5b00 !important;
 }
 .trabajos .galeria .item img{
     width: 100%;
@@ -405,5 +407,63 @@ footer{
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    z-index: 99;
+   }
+#nav.responsive a{
+    font-size: 30px;
+ }
+    #icono-nav{
+        display: block;
+    }
+    .inicio{
+        height: auto;
+    }
+    .inicio .fila{
+        display: block;
+    }
+    .icono .fila .col{
+        width: 100%;
+        text-align: center;
+    }
+    .inicio .fila .col{
+        margin-top: 20px;
+    }
+    .inicio .fila .contenedor-img{
+        width: 50%;
+        margin-top: 30px;
+    }
+
+    .servicios{
+        position: static;
+        padding: 20px;
+    }
+    .servicios .fila{
+        display: block;
+        margin-bottom: 0;
+    }
+    .servicios .fila .col{
+        width: 70%;
+        margin: auto;
+    }
+    .servicios .fila .col .card{
+        margin-bottom: 20px;
+    }
+    .habilidades{
+        position: static;
+    }
+    .trabajos nav a{
+        margin: 0 5px;
+    }
+    .contacto .fila{
+        display: block !important;
+    }
+    .contacto .fila .col{
+        text-align: center;
+        width: 100% !important;
+    }
+    .contacto .fila .col .info{
+        float: left;
+        font-size: 12px;
+        width: 25%;
     }
 }
